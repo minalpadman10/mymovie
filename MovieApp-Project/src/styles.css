@@ -1,0 +1,168 @@
+.nav_style:hover{
+   color: blue !important;
+   border: 0px solid black;
+   box-shadow: 5px 5px 15px black;
+   border-radius: 5px;
+   }
+   .login_style{
+       box-shadow: 5px 5px 20px black;
+   }
+   .sign{
+       padding: 5px 35px;
+       font-size: 20px;
+       font-weight: 900px !important;
+   }
+   .sign:hover{
+       color: blue;
+       border: 1px solid blue;
+       background-color: white;
+   }
+   .login{
+       font-weight: bolder;
+       font-size: 35px;
+   }
+   .pass{
+       font-weight: bold;
+   }
+   .reg{
+       padding: 30px;
+   }
+   .box_input{
+       width: 240px;
+    }
+    .btn-log{
+       background-color: blue;
+       color: white;
+       padding: 5px 50px;
+       margin-left: 65px;
+       font-weight: 700;
+    }
+    .btn-log:hover{
+       color: blue;
+      background-color: white;
+    }
+    .style_card{
+       border: 0;
+       box-shadow: 5px 5px 15px;
+       margin-left: 20px;
+       text-align: center;
+       font-weight: 800px;
+       font-size: 22px;
+    }
+    .style_card:hover{
+       border: 0;
+       box-shadow: 5px 5px 15px black;
+       padding: 10px;
+    }
+    .movies{
+       padding-top: 40px;
+       color:maroon;
+       font-size: 40px;
+    }
+    .footer{
+       background-color: black;
+       color: white;
+       padding: 50px 40px;
+    }
+    .contact{
+       background-color: #E0837E;
+       padding: 5px 20px;
+       color: white;
+       font-weight: bold;
+    }
+    .top{
+       margin-top: 100px !important;
+    }
+    .book{
+       color: white;
+       background-color: blue;
+       font-weight: 700;
+    }
+    .book:hover{
+       color: blue;
+       background-color: white;
+       border: 1px solid blue;
+    
+    }
+    .book2{
+       font-size: 35px;
+       font-weight: bold;
+       color: white;
+       background-color: brown;
+       border-radius: 5px;
+    }
+    .book2:hover{
+       color: brown;
+       background-color:transparent;
+    }
+    .account{
+       box-shadow: 5px 5px 15px;
+       margin-top:120px;
+       padding: 7px 60px;
+    }
+    .my_acc{
+       font-size:30px ;
+    }
+    .delete{
+       margin-left: 10px;
+    }
+    .name{
+       font-size: 30px;
+       text-align: center;
+    }
+    .check{
+       padding: 10px 50px;
+       margin-top: 20px;
+       font-size: 25px;
+    }
+    .details{
+       box-shadow: 5px 5px 20px black;
+    }
+   
+    .circle{
+      background-color: blue;
+      padding: 5px 30px;
+    }
+    .circle:hover{
+      background-color: white;
+    border: 1px solid blue;
+    }
+    .total{
+      color: white;
+    }
+    .total:hover{
+      color: blue;
+    }
+
+    #cover-spin {
+      position:fixed;
+      width:100%;
+      left:0;right:0;top:0;bottom:0;
+      background-color: rgba(255,255,255,0.7);
+      z-index:9999;
+  }
+  
+  @-webkit-keyframes spin {
+     from {-webkit-transform:rotate(0deg);}
+     to {-webkit-transform:rotate(360deg);}
+  }
+  
+  @keyframes spin {
+     from {transform:rotate(0deg);}
+     to {transform:rotate(360deg);}
+  }
+  
+  #cover-spin::after {
+      content:'';
+      display:block;
+      position:absolute;
+      left:48%;top:40%;
+      width:40px;height:40px;
+      border-style:solid;
+      border-color:black;
+      border-top-color:transparent;
+      border-width: 4px;
+      border-radius:50%;
+      -webkit-animation: spin .8s linear infinite;
+      animation: spin .8s linear infinite;
+  }
